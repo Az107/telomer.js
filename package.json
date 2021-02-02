@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node build/index.js",
-    "test": "jasmine"
+    "start": "jest",
+    "test": "jest"
   },
   "author": "az107",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^3.6.4"
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
   }
 }
