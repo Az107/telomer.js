@@ -1,7 +1,7 @@
 export class telomer {
 
 
-    public isOdd(n: number) {
+    private isOdd(n: number) {
         return (n % 2);
     }
 
