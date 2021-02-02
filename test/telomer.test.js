@@ -1,4 +1,4 @@
-var telomer = require("../build/index");
+var telomer = require("../build/telomer");
 var t = new telomer.telomer();
 
 var data = [1,2,3,4,5];
